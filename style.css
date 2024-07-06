@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Prompt&display=swap');
+*{
+    
+    font-family: "Bai Jamjuree", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+h1, h2, h3, h4, h5, h6, label{
+    font-family: "Prompt", sans-serif;
+}
+
+B, b{
+    color:#F37A01;
+}
+
+i, I{
+    color: #6c6c6c;
+}
+
+u, U{
+    text-decoration-color:#F37A01 ;
+}
+
+p, textarea, small{
+    font-family: "Bai Jamjuree", sans-serif;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+
+.container{
+    display: flex;
+    /* background-color: green; */
+    width: 100%;
+}
+
+.insertTopic{
+    width: 40%;
+    background-color: #bdbdbd;
+}
+
+form{
+    background: #fff;
+    margin: .25rem;
+    padding: .25rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    border: #bdbdbd solid 1px;
+}
+
+#title-input{
+    font-size: 30px;
+    font-family: "Prompt", sans-serif;
+    padding: 0.5rem;
+    height: 10rem;
+
+}
+
+#title-input:focus, textarea:focus, input:focus{
+    border: none;
+    outline: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    border: #bdbdbd solid 1px;
+    margin-top: .25rem;
+    
+}
+
+#content{
+    min-height: 32rem;
+    font-size: 18px;
+    padding: 0.5rem;
+
+}
+
+.name-author{
+    display: flex;
+    flex-direction: column;
+    border: #bdbdbd solid 1px;
+    margin-top: .25rem;
+    
+}
+
+#author{
+    font-size: 16px;
+    font-family: "Bai Jamjuree", sans-serif;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+
+#showTopic{
+    width: 60%;
+}
+
+
+#submit{
+    font-family: "Prompt", sans-serif;
+    cursor: pointer;
+    background-color: #F37A01;
+    width: 5rem;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border-radius: 0.5rem;
+    border: none;
+    color:#fff;
+}
+
+
+#submit:disabled{
+    cursor: default;
+    background-color: #b1b1b1;
+    color:#4e4e4e
+}
+
+#showTopic{
+    height: 50rem;
+    overflow: scroll;
+
+}
+
+.card{
+    background: whitesmoke;
+    margin: .75rem;
+    border: 1px solid #b7b7b7;
+    padding: .25rem .75rem;
+    border-radius: .5rem;
+    min-height: 10rem;
+    box-shadow: 6px 6px 0px 0px #545454c4;
+}
+
+#title-show{
+    color: #f37a01;
+    border-bottom: solid 1px #2a2a2a;
+    margin-bottom: .5rem;
+    
+}
+
+#content-show{
+    margin-top: .75em;
+}
+
+/* .topicAll{
+    overflow: hidden;
+} */
